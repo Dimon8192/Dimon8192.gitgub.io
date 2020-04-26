@@ -2,16 +2,26 @@
     font-family: 'Ubuntu', sans-serif;
     color: #b4ad9e;
     font-size: 14px;
+   
+}
+.block-1 img{
+    margin-bottom:30px;
 }
 .p-all {
     font-family: 'Playfair Display', serif;
     color: #626262;
     font-size: 14px;
+    margin-top: 40px;
 }
 .block-h3 {
     font-family: 'Playfair Display', serif;
     color: #626262;
     font-size: 30px;
+    margin-top: 35px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
 }
 .btn-block button {
     width: 165px;
@@ -22,4 +32,40 @@
      color: #707070;
      border: 2px solid #626262;
     background-color: white;
+    margin-left: 360px;
+    margin-top: 32px;
+    margin-bottom: 33px;
+}
+.list-item {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    list-style-type:none;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 75px;
+}
+.list-item:hover {
+color:  #03a9f4
+
+ }
+ .container {
+     width: 70%;
+     margin-left:15%;
+ }
+ .block-1 {
+width: 45%;
+display: inline-block;
+margin-top: 105px;
+ }
+ .block-left {
+     margin-right:87px;
+     margin-top:2px;
+ }
+img {
+    width: 470px;
+    height: 310px;
+}
+.imgs {
+    margin-top: 90px;
 }
