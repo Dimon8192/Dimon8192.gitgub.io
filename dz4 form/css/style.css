@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Droid Serif Italic";
+    src: url("../fonts/DroidSerif-Italic.woff") format("woff"),
+      url("../fonts/DroidSerif-Italic.eot") format("eot"),
+         url("../fonts/DroidSerif-Italic.ttf") format("ttf");
+        
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 67.14vw;
+}
+
+.contact-us {
+    width: 100%;
+    background-image: url(../img/background.png);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 115px;
+    background-size: cover;
+}
+/* input {
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+} */
+.contact {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    margin-top: 98px;
+    margin-bottom: 25px;
+}
+.p-lorem {
+    color: aliceblue;
+    font-size: 16px;
+    color: #696969;
+    font-family: "Droid Serif Italic";
+}
+.btn {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 18px;
+    background-color: #fed136;
+    border: #fed136;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    border-radius: 3.5px;
+    
+}
+.in {
+    border-radius: 3.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 16.5px;
+    width: 32.5vw;
+    margin-bottom: 25px;
+}
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-inputs {
+    display: flex;
+    flex-direction: column;
+
+}
+.messange {
+    resize: none;
+    height: 180px;
+    margin-top: 70px;
+}
+
+.inp {
+  margin-right: 2.14vw;  
+}
+
+.inpu {
+    margin-top: 70px;
+}
