@@ -1,10 +1,17 @@
 @font-face {
+    font-family: "Wisdom Script";
+    src: url(../fonts/Wisdom\ Script\ AJ.otf);
+}
+
+
+@font-face {
     font-family: "Droid Serif Italic";
     src: url("../fonts/DroidSerif-Italic.woff") format("woff"),
       url("../fonts/DroidSerif-Italic.eot") format("eot"),
          url("../fonts/DroidSerif-Italic.ttf") format("ttf");
         
   }
+  
   
 
 * {
@@ -13,6 +20,81 @@
 }
 .container{
     width: 67.14vw;
+}
+.services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.logo {
+    font-family: "Wisdom Script";
+    font-size: 26px;
+    color: #fed136;
+}
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #656565;
+}
+a:hover {
+    color: #fed136;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 125px;
+    margin-top: 50px;
+}
+.links {
+    width: 51.59%;
+    
+}
+.ul-list {
+    display: flex;
+    justify-content: space-between;
+}
+.h4-block{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+}
+.h3-block {
+    font-family: "Droid Serif Italic";
+    font-size: 16px;
+    margin-top: 20px;
+    color: #222222;
+}
+.Web {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+    
+.text-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    margin-top: 20px;
+}
+.text-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: #777777;
+    margin-top: 16px;
+    margin-bottom: 120px;
 }
 
 .contact-us {
@@ -50,7 +132,7 @@
     font-size: 18px;
     background-color: #fed136;
     border: #fed136;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', bold;
     color: aliceblue;
     border-radius: 3.5px;
     
